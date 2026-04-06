@@ -1,0 +1,64 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;  /* Fonte padrão */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;  /* Cor de fundo clara */
+    color: #333;  /* Cor de texto */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;  /* Cor de fundo escura */
+    color: #fff;  /* Texto branco */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para o título principal */
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Links */
+a {
+    color: #007BFF;  /* Cor dos links */
+    text-decoration: none;  /* Remove o sublinhado */
+}
+
+a:hover {
+    color: #0056b3;  /* Cor do link quando passa o mouse */
+    text-decoration: underline;  /* Sublinha o link quando passa o mouse */
+}
+
+/* Botões */
+button {
+    background-color: #007BFF;  /* Cor de fundo do botão */
+    color: white;  /* Cor do texto do botão */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;  /* Bordas arredondadas */
+}
+
+button:hover {
+    background-color: #0056b3;  /* Cor do botão ao passar o mouse */
+}
+
+/* Seção de conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
